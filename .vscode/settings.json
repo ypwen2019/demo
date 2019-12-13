@@ -1,0 +1,32 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "editor.renderControlCharacters": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+  
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true
+    },
+  
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "[markdown]": {
+      "editor.formatOnSave": true
+    },
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.semi": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.git": true,
+      "coverage": true
+    }
+  }
+  
